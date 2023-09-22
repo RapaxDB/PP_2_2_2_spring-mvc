@@ -12,7 +12,7 @@ import web.service.CarServiceImpl;
 @RequestMapping("/cars")
 public class CarController {
 
-    CarService service;
+    private CarService service;
 
     public CarController(CarService service) {
         this.service = service;
